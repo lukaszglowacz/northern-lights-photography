@@ -20,9 +20,19 @@ body {
     background-color: var(--clr-bkg-primary);
     color: var(--clr-primary);
     font-family: var(--font-primary);
+    font-weight: 300;
 }
+
+/* header, nav and logo */
 
 h1,
 h2 {
     font-family: var(--font-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#logo {
+    float: left;
+    font-size: 260%;
 }
