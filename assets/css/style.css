@@ -28,6 +28,7 @@ body {
 h1,
 h2 {
     font-family: var(--font-secondary);
+    color: var(--clr-primary);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -35,4 +36,33 @@ h2 {
 #logo {
     float: left;
     font-size: 260%;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid var(--clr-secondary);
+}
+
+.active {
+    border-bottom: 1px solid var(--clr-secondary);
 }
