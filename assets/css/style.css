@@ -5,7 +5,7 @@
     --clr-secondary: #63dfbe;
     --clr-bkg-primary: #2b5257;
     --clr-light-accent: #7993A6;
-    ---clr-light-accent-opacity:#7993A670;
+    --clr-light-accent-opacity:#7993A640;
     --clr-dark-accent: #29496F;
     --clr-dark-accent-opacity: #29496F50;
     --font-primary: 'Poppins', sans-serif;
@@ -198,11 +198,23 @@ hr {
 /* spot times */
 
 #times {
-    background-image: url('../images/colin-le-roy-0pweJQWhWfM-unsplash.jpg');
+    background-image: url('../images/time-months-image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
-    background-color: var(---clr-light-accent-opacity);
+    
+}
+
+#times div {
+    background-color: var(--clr-dark-accent-opacity);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 4px solid var(--clr-bkg-primary);
+    border-bottom: none;
 }
