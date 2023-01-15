@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@300&display=swap');
+
+:root {
+    --clr-primary: #f6f3f4;
+    --clr-secondary: #63dfbe;
+    --clr-bkg-primary: #2b5257;
+    --clr-light-accent: #90a698;
+    --clr-dark-accent: #a4806e;
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: var(--clr-bkg-primary);
+    color: var(--clr-primary)
+}
+
+h1,
+h2 {
+    font-family: var(--font-secondary);
+}
+
+p {
+    font-family: var(--font-primary);
+}
