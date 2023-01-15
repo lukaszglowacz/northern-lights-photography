@@ -66,3 +66,31 @@ h2 {
 .active {
     border-bottom: 1px solid var(--clr-secondary);
 }
+
+/* northern-image */
+
+#northern-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#northern-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/northern-lights-image.png) no-repeat center center;
+
+    /* animation zoom effect on loading page */
+    animation: northern-zoom 5s forwards;
+}
+
+/* create an zoom animation */
+
+@keyframes northern-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
