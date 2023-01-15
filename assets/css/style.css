@@ -216,5 +216,25 @@ hr {
     text-align: center;
     box-sizing: border-box;
     border: 4px solid var(--clr-bkg-primary);
-    border-bottom: none;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.social-icons i {
+    font-size: 220%;
+    margin: 1%;
+    padding: 5%;
+    color: var(--clr-primary);
 }
