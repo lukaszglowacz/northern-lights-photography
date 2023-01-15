@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300&display=swap');
 
 :root {
     --clr-primary: #f6f3f4;
     --clr-secondary: #63dfbe;
     --clr-bkg-primary: #2b5257;
-    --clr-light-accent: #90a698;
-    --clr-dark-accent: #a4806e;
-    --font-primary: 'Montserrat', sans-serif;
-    --font-secondary: 'Kanit', sans-serif;
+    --clr-light-accent: #7993A6;
+    --clr-dark-accent: #29496F;
+    --clr-dark-accent-opacity: #29496F50;
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Oswald', sans-serif;
 }
 
 * {
@@ -20,17 +21,22 @@ body {
     background-color: var(--clr-bkg-primary);
     color: var(--clr-primary);
     font-family: var(--font-primary);
-    font-weight: 300;
+    font-weight: 200;
 }
 
 /* header, nav and logo */
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--font-secondary);
     color: var(--clr-primary);
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+h3 {
+    font-weight: 200;
 }
 
 #logo {
@@ -67,12 +73,18 @@ h2 {
     border-bottom: 1px solid var(--clr-secondary);
 }
 
-/* northern-image */
+/* northern-image and cover-text*/
 
 #northern-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: var(--clr-primary);
+    text-transform: uppercase;
 }
 
 #northern-image {
@@ -93,4 +105,17 @@ h2 {
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: var(--font-secondary);
+    letter-spacing: 1px;
+    width: 300px;
+    height: 200px;
+    padding: 40px 0 0 15px;
+    background-color: var(--clr-dark-accent-opacity);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
 }
