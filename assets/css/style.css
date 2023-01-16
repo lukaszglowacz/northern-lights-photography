@@ -282,9 +282,8 @@ footer {
     #times div {
         width: 100%;
         clear: both;
-        height: 150px;
+        height: 180px;
         padding: 0;
-
     }
 
     hr {
@@ -335,5 +334,19 @@ footer {
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #circle-container {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 30px
+    }
+    
+    #circle-bkg-image {
+        background-size: cover;
+        height: 100%;
+        border-radius: 50%;
     }
 }
