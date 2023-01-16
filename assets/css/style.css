@@ -250,6 +250,17 @@ footer {
     width: 100%;
 }
 
+/* sign up form */
+
+.form-section {
+   clear: left;
+   background: url('../images/form-cover-image-bkg.png');
+   background-size: cover;
+   background-position: bottom;
+   height: 900px
+}
+
+
 /* media queries */
 
 /* for larger to medium screen sizes from 1200px wide and down */
@@ -348,5 +359,14 @@ footer {
         background-size: cover;
         height: 100%;
         border-radius: 50%;
+    }
+}
+
+/* form background image for big size screens above 1650px width */
+
+@media screen and (min-width: 1650px) {
+    .form-section {
+        background: url('../images/alternative-cover-big.png') no-repeat center center;
+        background-size: cover;
     }
 }
