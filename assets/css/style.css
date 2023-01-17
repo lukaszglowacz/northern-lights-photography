@@ -4,8 +4,9 @@
     --clr-primary: #f6f3f4;
     --clr-secondary: #63dfbe;
     --clr-bkg-primary: #2b5257;
+    --clr-bkg-primary-opacity: #2b525770;
     --clr-light-accent: #7993A6;
-    --clr-light-accent-opacity:#7993A640;
+    --clr-light-accent-opacity:#7993A660;
     --clr-dark-accent: #29496F;
     --clr-dark-accent-opacity: #29496F50;
     --font-primary: 'Poppins', sans-serif;
@@ -193,6 +194,7 @@ hr {
     background: url('../images/nlp-club-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    background-size: cover;
 }
 
 /* spot times */
@@ -260,6 +262,73 @@ footer {
    height: 900px
 }
 
+.signup-form {
+    margin: 100px 10px 0 10px;
+    color: var(--clr-primary);
+    background-color: var(--clr-bkg-primary-opacity);
+    max-width: 400px;
+    position: absolute;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: var(--clr-secondary);
+}
+
+.join-button {
+    margin: 20px auto;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: var(--clr-secondary);
+    color: var(--clr-dark-accent);
+    display: block;
+}
+
+.join-button:hover {
+    background-color: var(--clr-dark-accent);
+    color: var(--clr-secondary);
+}
+
+/* registering section */
+
+.registering-section {
+    clear: both;
+    background-color: var(--clr-bkg-primary);
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-message {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 600px
+}
+
+.welcome-message h1 {
+    font-size: 260%;
+    padding: 100px 30px 40px 30px;
+    text-align: center;
+}
+
+.welcome-message p {
+    padding: 20px 50px 20px 50px;
+}
 
 /* media queries */
 
@@ -362,6 +431,28 @@ footer {
     }
 }
 
+/* form background image for laptops above 950px width */
+
+@media screen and (min-width: 950px) {
+    .signup-form {
+        margin: 100px 10px 0 300px;
+    }
+    .welcome-message {
+        max-width: 900px
+    }
+    
+    .welcome-message h1 {
+        font-size: 350%;
+        padding: 150px 50px 40px 50px;
+        text-align: center;
+    }
+
+    .welcome-message p {
+        padding: 20px 100px 20px 100px;
+        font-size: 150%;
+    }
+}
+
 /* form background image for big size screens above 1650px width */
 
 @media screen and (min-width: 1650px) {
@@ -369,4 +460,16 @@ footer {
         background: url('../images/alternative-cover-big.jpg') no-repeat center center;
         background-size: cover;
     }
+
+    .signup-form {
+        margin: 100px 10px 0 200px;
+}
+}
+
+/* form background image for big size screens above 2200px width */
+
+@media screen and (min-width: 2200px) {
+    .signup-form {
+        margin: 100px 10px 0 550px;
+}
 }
