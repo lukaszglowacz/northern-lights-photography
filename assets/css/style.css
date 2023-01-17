@@ -6,7 +6,7 @@
     --clr-bkg-primary: #2b5257;
     --clr-bkg-primary-opacity: #2b525770;
     --clr-light-accent: #7993A6;
-    --clr-light-accent-opacity:#7993A660;
+    --clr-light-accent-opacity: #7993A660;
     --clr-dark-accent: #29496F;
     --clr-dark-accent-opacity: #29496F50;
     --font-primary: 'Poppins', sans-serif;
@@ -84,7 +84,8 @@ h3 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: var(--clr-primary);
     text-transform: uppercase;
 }
@@ -104,6 +105,7 @@ h3 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -206,7 +208,7 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
-    
+
 }
 
 #times div {
@@ -248,25 +250,25 @@ footer {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
 /* sign up form */
 
 .form-section {
-   clear: left;
-   background: url('../images/form-cover-image-bkg.jpg');
-   background-size: cover;
-   background-position: bottom;
-   height: 900px
+    clear: left;
+    background: url('../images/form-cover-image-bkg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 900px
 }
 
 .signup-form {
     margin: 100px 10px 0 10px;
     color: var(--clr-primary);
     background-color: var(--clr-bkg-primary-opacity);
-    max-width: 500px;
+    max-width: 560px;
     position: absolute;
     padding: 30px;
 }
@@ -383,7 +385,8 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -429,16 +432,19 @@ footer {
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
-    } 
+    }
 
-    .left-about-heading p, .right-about-heading p {
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
     }
@@ -454,13 +460,13 @@ footer {
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 550px) {
     #circle-container {
         width: 220px;
         height: 220px;
         margin-bottom: 30px
     }
-    
+
     #circle-bkg-image {
         background-size: cover;
         height: 100%;
@@ -469,7 +475,7 @@ footer {
 
     .welcome-message p {
         padding: 20px 50px 20px 50px;
-        
+
     }
 
     .flex {
@@ -490,7 +496,29 @@ footer {
         background-color: var(--clr-secondary);
         color: var(--clr-dark-accent);
         display: block;
-    }   
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .flex {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+        justify-content: center;
+        padding: 10px
+    }
+
+    .join-button {
+        margin: 10px auto 10px;
+        border-radius: 10px;
+        padding: 15px 32px 15px 32px;
+        text-align: center;
+        font-size: 100%;
+        background-color: var(--clr-secondary);
+        color: var(--clr-dark-accent);
+        display: block;
+    }
 }
 
 /* form background image for laptops above 950px width */
@@ -499,10 +527,11 @@ footer {
     .signup-form {
         margin: 100px 10px 0 100px;
     }
+
     .welcome-message {
         max-width: 900px
     }
-    
+
     .welcome-message h1 {
         font-size: 350%;
         padding: 150px 50px 40px 50px;
@@ -525,7 +554,7 @@ footer {
 
     .signup-form {
         margin: 100px 10px 0 200px;
-}
+    }
 }
 
 /* form background image for big size screens above 2200px width */
