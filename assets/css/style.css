@@ -91,7 +91,7 @@ h3 {
 #northern-image {
     height: 600px;
     width: 100%;
-    background: url(../images/northern-lights-image.png) no-repeat center center;
+    background: url(../images/northern-lights-image.jpg) no-repeat center center;
 
     /* animation zoom effect on loading page */
     animation: northern-zoom 5s forwards;
@@ -190,7 +190,7 @@ hr {
 }
 
 #circle-bkg-image {
-    background: url('../images/nlp-club-image.png') no-repeat center center;
+    background: url('../images/nlp-club-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -198,7 +198,7 @@ hr {
 /* spot times */
 
 #times {
-    background-image: url('../images/time-months-image.png');
+    background-image: url('../images/time-months-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -254,7 +254,7 @@ footer {
 
 .form-section {
    clear: left;
-   background: url('../images/form-cover-image-bkg.png');
+   background: url('../images/form-cover-image-bkg.jpg');
    background-size: cover;
    background-position: bottom;
    height: 900px
@@ -366,7 +366,7 @@ footer {
 
 @media screen and (min-width: 1650px) {
     .form-section {
-        background: url('../images/alternative-cover-big.png') no-repeat center center;
+        background: url('../images/alternative-cover-big.jpg') no-repeat center center;
         background-size: cover;
     }
 }
