@@ -357,7 +357,7 @@ footer {
     max-width: 600px
 }
 
-.welcome-message h1 {
+.welcome-message h2 {
     font-size: 260%;
     padding: 100px 30px 40px 30px;
     text-align: center;
@@ -536,7 +536,7 @@ footer {
         max-width: 900px
     }
 
-    .welcome-message h1 {
+    .welcome-message h2 {
         font-size: 350%;
         padding: 150px 50px 40px 50px;
         text-align: center;
