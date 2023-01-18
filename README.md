@@ -2,6 +2,22 @@
 Northern Lights Photo Trip is a site that helps people find good places to photograph the Northern Lights in Sweden. Northern Lights Photo Trip allows people to check when and where aurora photography enthusiasts meet and join a group for more relevant information.
 
 ![responsive-main-image](https://user-images.githubusercontent.com/119242394/213183357-8dd7e511-ddbf-48e3-be33-f230b063ec67.jpg)
+
+## User Experience (UX)
+### Wireframes
+The wireframes for the website were produced in Balsamiq. There are frames for a full width display and a small mobile device. The final site varies slightly from the wireframes due to developments that occured during the creation process.
+
+### Design Choices
+- Typography
+  - The fonts chosen were 'Oswald' for the headings and 'Poppins' for the body text. They fall back to sans-serif respectively.
+  - Poppins is an easily readable font, and Oswald was selected via https://typ.io/search
+  
+- Colour Scheme
+  - The leading color is a shade of green, which fits perfectly with the theme of the Northern Lights.
+  - The colors were selected via http://colormind.io/
+
+![color-mind-picker](https://user-images.githubusercontent.com/119242394/213212242-8bf04506-5d24-4f88-94e6-2c68c1dcd471.jpg)
+
 ## Features
 The website consists of a landing page and three related pages.
 ### Existing Features
@@ -50,8 +66,43 @@ The website consists of a landing page and three related pages.
 
 ![sign-up-form-2](https://user-images.githubusercontent.com/119242394/213200679-13bb1a17-c102-411a-b758-5feb054c9b01.jpg)
 
+   - **Register Page**
+     - The page is shown to everyone who has registered for Northern Lights Photo Trip.
+     - The website contains information on further steps to complete the selected trip.
+
+![after-sign-up-process](https://user-images.githubusercontent.com/119242394/213205641-bfadfd01-925c-439f-ad61-15324312455c.jpg)
+
 ### Features Left to Implement
  - Later plans include rebuilding the website, including online payments with selecting a specific trip period.
  - There are also plans to launch an online store to sell products with the Northern Lights Photo Trip logo.
+ - Add Error 404 page with back to home link.
 
+## Technology Used
+ - HTML5
+ - CSS3
+ - Balsamiq
+ - Gitpod
+ - GitHub
+ - Photoshop
+ - Canva
+ - 
 ## Testing
+### Validator Testing
+### Lighthouse Chrome Dev Tools
+### Unfixed Bugs
+There is no unfixed bugs in this site.
+
+## Deployment
+
+## Credits
+### Content
+  - Google Fonts
+  - Font Awesome
+  - Colormind
+  - typ.io
+  
+### Media
+  - Unsplash
+  - Canva
+
+Back to top
