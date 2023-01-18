@@ -87,10 +87,54 @@ The website consists of a landing page and three related pages.
  - Canva
  - 
 ## Testing
-### Validator Testing
-### Lighthouse Chrome Dev Tools
+### Code Validation
+The Northern Light Photo Trip website has been throughly tested. All the code has been run through the W3C html Validator and the W3C CSS Validator. No error were found after the last test.
+
+The HTML validator results for each page are below:
+
+- Home Page
+
+![no-errors-html](https://user-images.githubusercontent.com/119242394/213243744-d7515fe5-acb1-4bd5-8fd9-9614443d14e4.jpg)
+
+- Gallery Page
+
+![no-errors-html](https://user-images.githubusercontent.com/119242394/213243744-d7515fe5-acb1-4bd5-8fd9-9614443d14e4.jpg)
+
+- Sign Up Page
+
+![no-errors-html](https://user-images.githubusercontent.com/119242394/213243744-d7515fe5-acb1-4bd5-8fd9-9614443d14e4.jpg)
+
+- Registering Page
+
+![no-errors-html](https://user-images.githubusercontent.com/119242394/213243744-d7515fe5-acb1-4bd5-8fd9-9614443d14e4.jpg)
+
+The CSS validator results are below:
+
+![no-errors-css](https://user-images.githubusercontent.com/119242394/213244593-53d7ec51-3a37-44fd-a6b4-c74edabcb237.jpg)
+
+### Responsiveness Test
+
+|  | Mobile S - 320px | Mobile M - 375px | Mobile L - 425px | Tablet - 768px | Laptop - 1024px | Laptop L - 1440px | 4K - 2560px |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Render | passed | passed | passed | passed | passed | passed | passed |
+| Images | passed | passed | passed | passed | passed | passed | passed |
+| Links | passed | passed | passed | passed | passed | passed | passed |
+
+All responsiveness tests were successful. The site is ready to work with devices of various widths. In addition, the site has been adapted to large screens above 1440px.
+
+### Browser Compatibility
 ### Unfixed Bugs
-There is no unfixed bugs in this site.
+There is no known unfixed bugs in this site.
+### Additional Testing
+- Lighthouse
+The site was also tested using Lighthouse Chrome Dev Tools to test each of the pages for:
+  - Performance - How the page performs whilst loading.
+  - Accessibility - Is the site acccessible for all users and how can it be improved.
+  - Best Practices - Site conforms to industry best practices.
+  - SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
+
+
+
 
 ## Deployment
 
