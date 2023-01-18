@@ -23,5 +23,35 @@ The website consists of a landing page and three related pages.
     - Here the user sees why it is worth joining the club and taking pictures of the Northern Lights during ordinary trips of club members.
 
 ![club-front-image](https://user-images.githubusercontent.com/119242394/213189610-ead9ad27-64a8-476a-aa46-d89770c4af65.jpg)
+  - **Meetup Times section**
+    - In this section, the user can see in which months we meet and in which cities in northern Sweden, along with information about the hotels where we stay.
+    - Meeting locations are unchanged unless there is a need to adapt to weather changes, and the user is informed about the update of places by e-mail.
 
+![time-meet-section](https://user-images.githubusercontent.com/119242394/213195007-4b05c855-0c08-4bce-a87c-558e2a6313be.jpg)
 
+  - **The Footer**
+    - The footer section includes links to the relevant social media sites for Northern Lights Photo Trip. The links will open to a new tab to allow easy navigation for the user.
+    - The footer is valuable to the user as it encourages them to keep connected via social media.
+
+![footer-image](https://user-images.githubusercontent.com/119242394/213196408-b3a7488b-322a-4400-aafe-7c7097eb64ee.jpg)
+
+  - **Gallery**
+    - The Gallery shows the user photos taken by members of the Northern Lights Photo Trip group during our previous meetings.
+    - The quality of the photos taken is to encourage new users to join the club and register.
+
+![gallery-image](https://user-images.githubusercontent.com/119242394/213197861-a2d04c57-dc9e-4fbb-aac3-654076d3d391.jpg)
+
+  - **Sign Up Page**
+    - This page will allow the user to get signed up for Northern Lights Photo Run to start their northern lights journey with the community. The user is asked to submit their full name and email address. The user can select the month and place that best suits his preferences. This way, a list of participants of the club's subsequent trips is collected.
+
+![sign-up-form](https://user-images.githubusercontent.com/119242394/213199810-eb281f9e-0f02-49cb-87c2-1e3d2e16b09a.jpg)
+
+    - The Sign Up Page is also prepared for larger screens over 1650px wide.
+
+![sign-up-form-2](https://user-images.githubusercontent.com/119242394/213200679-13bb1a17-c102-411a-b758-5feb054c9b01.jpg)
+
+### Features Left to Implement
+ - Later plans include rebuilding the website, including online payments with selecting a specific trip period.
+ - There are also plans to launch an online store to sell products with the Northern Lights Photo Trip logo.
+
+## Testing
