@@ -20,8 +20,8 @@ The wireframes for the website were produced in Balsamiq. There are frames for a
   - Poppins is an easily readable font, and Oswald was selected via https://typ.io/search
   
 - Colour Scheme
-  - The leading color is a shade of green, which fits perfectly with the theme of the Northern Lights.
-  - The colors were selected via http://colormind.io/
+  - The leading colour is a shade of green, which fits perfectly with the theme of the Northern Lights.
+  - The colours were selected via http://colormind.io/
 
 ![color-mind-picker](https://user-images.githubusercontent.com/119242394/213212242-8bf04506-5d24-4f88-94e6-2c68c1dcd471.jpg)
 
