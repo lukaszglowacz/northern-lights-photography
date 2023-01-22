@@ -538,6 +538,10 @@ footer {
     #photos {
         column-count: 1;
     }
+
+    #cover-text {
+        bottom: 280px;
+    }
 }
 
 /* form background image for laptops above 950px width */
