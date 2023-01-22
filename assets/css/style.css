@@ -532,6 +532,14 @@ footer {
     }
 }
 
+/* for mobile screen sizes up to 450px */
+
+@media screen and (max-width: 450px) {
+    #photos {
+        column-count: 1;
+    }
+}
+
 /* form background image for laptops above 950px width */
 
 @media screen and (min-width: 950px) {
