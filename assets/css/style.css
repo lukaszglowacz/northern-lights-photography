@@ -242,6 +242,8 @@ footer {
     color: var(--clr-primary);
 }
 
+/* images in gallery */
+
 #photos {
     clear: both;
     line-height: 0;
@@ -414,7 +416,7 @@ footer {
     }
 }
 
-/* for medium screem sizes up to 950px */
+/* for medium screen sizes up to 950px */
 
 @media screen and (max-width: 950px) {
     #menu {
@@ -457,7 +459,7 @@ footer {
     }
 }
 
-/* for medium screem sizes up to 800px */
+/* for medium screen sizes up to 800px */
 
 @media screen and (max-width: 800px) {
     #photos {
@@ -465,7 +467,7 @@ footer {
     }
 }
 
-/* for small screem sizes up to 650px */
+/* for small screen sizes up to 650px */
 
 @media screen and (max-width: 650px) {
     .flex {
@@ -489,7 +491,7 @@ footer {
     }
 }
 
-/* for mobile screem sizes up to 550px */
+/* for mobile screen sizes up to 550px */
 
 @media screen and (max-width: 550px) {
     #circle-container {
