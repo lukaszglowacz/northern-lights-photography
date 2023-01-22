@@ -530,15 +530,15 @@ footer {
         color: var(--clr-dark-accent);
         display: block;
     }
+
+    #photos {
+        column-count: 1;
+    }
 }
 
 /* for mobile screen sizes up to 450px */
 
 @media screen and (max-width: 450px) {
-    #photos {
-        column-count: 1;
-    }
-
     #cover-text {
         bottom: 280px;
     }
